@@ -25,7 +25,10 @@ namespace CSharpLINQ
             //LINQ_CheckCondition4();
 
             //LINQ_All();
-            LINQ_Any();
+            //LINQ_Any();
+
+            //LINQ_Take();
+            LINQ_Skip();
         }
 
         #region Sum
@@ -181,5 +184,36 @@ namespace CSharpLINQ
         }
 
         #endregion All, Any
+
+        #region Take, Skip
+
+        static void LINQ_Take()
+        {
+            var data = Enumerable.Range(0, 99);
+
+            foreach(int num in data.Take(5))
+            {
+                Console.WriteLine(num);
+            }
+
+            Console.WriteLine();
+
+            foreach(int num in data.Where(n => n % 2 == 0).Take(5))
+            {
+                Console.WriteLine(num);
+            }
+        }
+
+        static void LINQ_Skip()
+        {
+            var data = Enumerable.Range(0, 100);
+
+            foreach(int num in data.Skip(10).Take(5))
+            {
+                Console.WriteLine(num);
+            }
+        }
+
+        #endregion Take, Skip
     }
 }

@@ -180,3 +180,27 @@
 
 
 
+### Take()와 Skip() 메서드로 필요한 건수의 데이터 가져오기
+
+> #### LINQ의 Take와 Skip 확장 메서드를 사용해본다.
+>
+> #### Take 메서드는 특정 배열에서 원하는 수량만큼 데이터를 가져오는 메서드다.
+
+- #### Take()
+
+![Take](mdFiles/Images/TakeSkip/TakeCode.PNG)
+
+![Img](mdFiles/Images/TakeSkip/TakeImg.PNG)
+
+
+
+> #### Skip() 메서드는 지정한 수만큼 데이터를 제외한 컬렉션을 반환한다.
+
+- #### Skip()
+
+![Skip](mdFiles/Images/TakeSkip/TakeCode.PNG)
+
+![Img](mdFiles/Images/TakeSkip/TakeImg.PNG)
+
+
+
