@@ -42,7 +42,8 @@ namespace CSharpLINQ
             //LINQ_SingleOrDefault();
             //LINQ_FirstOrDefault();
 
-            LINQ_QuerySyntax();
+            //LINQ_QuerySyntax();
+            LINQ_QuerySyntax2();
         }
 
         #region Sum
@@ -365,6 +366,33 @@ namespace CSharpLINQ
             foreach(var number in evenNumbers)
             {
                 Console.WriteLine($"짝수 : {number}");
+            }
+        }
+
+        // query와 메서드 연쇄 비교
+        static void LINQ_QuerySyntax2()
+        {
+            int[] numbers = { 3, 2, 1, 4, 5 };
+
+            // ① 메서드 구문
+            IEnumerable<int> methodSyntax =
+                numbers.Where(n => n % 2 == 1).OrderBy(n => n);
+
+            foreach (var n in methodSyntax)
+            {
+                Console.WriteLine(n);
+            }
+
+            // ② 쿼리 구문
+            IEnumerable<int> querySyntax =
+                from num in numbers
+                where num % 2 == 1
+                orderby num
+                select num;
+
+            foreach (var n in querySyntax)
+            {
+                Console.WriteLine(n);
             }
         }
 

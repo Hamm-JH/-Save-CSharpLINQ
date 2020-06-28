@@ -310,3 +310,11 @@
 
 
 
+- #### QuerySyntax2
+
+![QS2](mdFiles/Images/QuerySyntax/QS2Code.PNG)
+
+![Img](mdFiles/Images/QuerySyntax/QS2Img.PNG)
+
+
+
