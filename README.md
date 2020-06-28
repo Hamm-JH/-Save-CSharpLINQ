@@ -294,3 +294,19 @@
 
 
 
+### 메서드 구문과 쿼리 구문
+
+> #### LINQ에는 이처럼 확장 메서드들을 사용하여 원하는 로직을 처리하는 방법과 기능이 동일한 또 다른 문법인 쿼리 구문(query syntax)도 제공한다.
+>
+> - #### 메서드 구문(method syntax) : 이 강의에서 살펴본 Where() 같은 메서드들을 사용하여 컬렉션을 다루는 방법
+>
+> - #### 쿼리 구문(query syntax) : from, where, select 같은 키워드들을 사용하여 쿼리(query) 형태로 컬렉션을 다루는 방법
+
+- #### QuerySyntax
+
+![QS](mdFiles/Images/QuerySyntax/QSCode.PNG)
+
+![Img](mdFiles/Images/QuerySyntax/QSImg.PNG)
+
+
+
