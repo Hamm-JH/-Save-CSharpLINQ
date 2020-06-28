@@ -152,3 +152,9 @@
 
 
 
+- #### CheckCondition4
+
+![CC4](mdFiles/Images/CheckCondition/CC4Code.PNG)
+
+![Img](mdFiles/Images/CheckCondition/CC4Img.PNG)
+

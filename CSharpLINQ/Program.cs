@@ -17,7 +17,8 @@ namespace CSharpLINQ
             //LINQ_ConvertToList();
             //LINQ_CheckCondition();
             //LINQ_CheckCondition2();
-            LINQ_CheckCondition3();
+            //LINQ_CheckCondition3();
+            LINQ_CheckCondition4();
         }
 
         static void LINQ_Sum()
@@ -121,6 +122,15 @@ namespace CSharpLINQ
             {
                 Console.WriteLine(num);
             }
+        }
+
+        static void LINQ_CheckCondition4()
+        {
+            bool[] blns = { true, false, true, false, true };
+
+            Console.WriteLine(blns.Count());
+            Console.WriteLine(blns.Count(bln => bln == true));
+            Console.WriteLine(blns.Count(bln => bln == false));
         }
     }
 }
