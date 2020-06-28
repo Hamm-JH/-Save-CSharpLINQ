@@ -9,17 +9,25 @@ namespace CSharpLINQ
         static void Main(string[] args)
         {
             //LINQ_Sum();
+
             //LINQ_Count();
+
             //LINQ_Average();
+
             //LINQ_Max();
             //LINQ_Min();
+
             //LINQ_Where();
             //LINQ_ConvertToList();
             //LINQ_CheckCondition();
             //LINQ_CheckCondition2();
             //LINQ_CheckCondition3();
-            LINQ_CheckCondition4();
+            //LINQ_CheckCondition4();
+
+            LINQ_All();
         }
+
+        #region Sum
 
         static void LINQ_Sum()
         {
@@ -30,6 +38,10 @@ namespace CSharpLINQ
             Console.WriteLine($"numbers 배열 요소의 합 : {sum}");
         }
 
+        #endregion Sum
+
+        #region Count
+
         static void LINQ_Count()
         {
             int[] numbers = { 1, 2, 3 };
@@ -39,6 +51,10 @@ namespace CSharpLINQ
             Console.WriteLine($"numbers 배열 개수 : {count}");
         }
 
+        #endregion Count
+
+        #region Average
+
         static void LINQ_Average()
         {
             int[] numbers = { 1, 3, 4 };
@@ -47,6 +63,10 @@ namespace CSharpLINQ
 
             Console.WriteLine($"numbers 배열 요소의 평균 : {average:#,###.##}");
         }
+
+        #endregion Average
+
+        #region Max, Min
 
         static void LINQ_Max()
         {
@@ -65,6 +85,10 @@ namespace CSharpLINQ
 
             Console.WriteLine($"{nameof(numbers)} 리스트의 최소값 : {min:.00}");
         }
+
+        #endregion Max, Min
+
+        #region Where, CheckCondition
 
         static void LINQ_Where()
         {
@@ -132,5 +156,20 @@ namespace CSharpLINQ
             Console.WriteLine(blns.Count(bln => bln == true));
             Console.WriteLine(blns.Count(bln => bln == false));
         }
+
+        #endregion Where, CheckCondition
+
+        #region All, Any
+
+        static void LINQ_All()
+        {
+            bool[] completes = { true, true, true };
+            Console.WriteLine(completes.All(c => c == true));
+
+            bool[] inCompletes = { true, false, true };
+            Console.WriteLine(inCompletes.All(c => c == true));
+        }
+
+        #endregion All, Any
     }
 }

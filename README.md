@@ -158,3 +158,17 @@
 
 ![Img](mdFiles/Images/CheckCondition/CC4Img.PNG)
 
+
+
+### All()과 Any() 메서드로 조건 판단하기
+
+> #### LINQ의 All()과 Any() 메서드는 배열 또는 컬렉션에서 모든 조건을 만족하거나 하나의 조건이라도 만족해야 하는 경우를 판단합니다.
+
+- #### All()
+
+![All](mdFiles/Images/AllAny/AllCode.PNG)
+
+![Img](mdFiles/Images/AllAny/AllImg.PNG)
+
+
+
