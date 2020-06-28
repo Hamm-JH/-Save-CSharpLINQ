@@ -218,7 +218,7 @@ namespace CSharpLINQ
 
         #endregion Take, Skip
 
-        #region Distinct
+        #region Distinct, Repeat
 
         static void LINQ_Distinct()
         {
@@ -239,6 +239,6 @@ namespace CSharpLINQ
             }
         }
 
-        #endregion Distinct
+        #endregion Distinct, Repeat
     }
 }
