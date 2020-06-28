@@ -32,7 +32,8 @@ namespace CSharpLINQ
 
             //LINQ_Distinct();
 
-            LINQ_OrderBy();
+            //LINQ_OrderBy();
+            LINQ_OrderByDescending();
         }
 
         #region Sum
@@ -258,7 +259,13 @@ namespace CSharpLINQ
 
         static void LINQ_OrderByDescending()
         {
+            List<string> colors = new List<string> { "Red", "Blue", "Green" };
+            var sortedColors = colors.OrderByDescending(c => c);
 
+            foreach (var color in sortedColors)
+            {
+                Console.WriteLine(color);
+            }
         }
 
         #endregion OrderBy, OrderByDescending
