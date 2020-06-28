@@ -39,7 +39,8 @@ namespace CSharpLINQ
 
             //LINQ_UseCase();
 
-            LINQ_SingleOrDefault();
+            //LINQ_SingleOrDefault();
+            LINQ_FirstOrDefault();
         }
 
         #region Sum
@@ -331,5 +332,21 @@ namespace CSharpLINQ
         }
 
         #endregion Single, SingleOrDefault
+
+        #region First, FirstOrDefault
+
+        static void LINQ_FirstOrDefault()
+        {
+            List<string> colors = new List<string> { "Red", "Green", "Blue" };
+
+            Console.WriteLine(colors.First(c => c == "Red"));
+
+            // 에러 발생
+            //Console.WriteLine(colors.First(c => c == "Black"));
+
+            Console.WriteLine(colors.FirstOrDefault(c => c == "Black"));
+        }
+
+        #endregion First, FirstOrDefault
     }
 }

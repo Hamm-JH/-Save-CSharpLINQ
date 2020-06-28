@@ -278,3 +278,19 @@
 
 
 
+### First()와 FirstOrDefault() 확장 메서드
+
+> #### 앞에서 살펴본 Single()이나 SingleOrDefault()와 비슷하지만 하나 이상의 데이터 중에서 첫 번째 데이터를 가져온다.
+>
+> - #### First() : 첫 번째 요소가 없으면 에러가 발생합니다.
+>
+> - #### FirstOrDefault() : 첫 번째 요소가 없으면 기본값을 반환합니다.
+
+- #### FirstOrDefault()
+
+![FOD](mdFiles/Images/FirstOrDefault/FODCode.PNG)
+
+![Img](mdFiles/Images/FirstOrDefault/FODImg.PNG)
+
+
+
