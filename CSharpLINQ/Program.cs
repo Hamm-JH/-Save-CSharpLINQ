@@ -24,7 +24,8 @@ namespace CSharpLINQ
             //LINQ_CheckCondition3();
             //LINQ_CheckCondition4();
 
-            LINQ_All();
+            //LINQ_All();
+            LINQ_Any();
         }
 
         #region Sum
@@ -168,6 +169,15 @@ namespace CSharpLINQ
 
             bool[] inCompletes = { true, false, true };
             Console.WriteLine(inCompletes.All(c => c == true));
+        }
+
+        static void LINQ_Any()
+        {
+            bool[] completes = { true, true, true };
+            Console.WriteLine(completes.Any(c => c == false));
+
+            bool[] inCompletes = { true, false, true };
+            Console.WriteLine(inCompletes.Any(c => c == false));
         }
 
         #endregion All, Any

@@ -172,3 +172,11 @@
 
 
 
+- #### Any()
+
+![Any](mdFiles/Images/AllAny/anyCode.PNG)
+
+![Img](mdFiles/Images/AllAny/AnyImg.PNG)
+
+
+
