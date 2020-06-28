@@ -136,3 +136,11 @@
 
 
 
+- #### CheckCondition2
+
+![CC2](mdFiles/Images/CheckCondition/CC2Code.PNG)
+
+![Img](mdFiles/Images/CheckCondition/CC2Img.PNG)
+
+
+

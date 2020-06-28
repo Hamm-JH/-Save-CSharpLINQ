@@ -15,7 +15,8 @@ namespace CSharpLINQ
             //LINQ_Min();
             //LINQ_Where();
             //LINQ_ConvertToList();
-            LINQ_CheckCondition();
+            //LINQ_CheckCondition();
+            LINQ_CheckCondition2();
         }
 
         static void LINQ_Sum()
@@ -95,5 +96,19 @@ namespace CSharpLINQ
 
             Console.WriteLine(number);
         }
+
+        static void LINQ_CheckCondition2()
+        {
+            int[] arr = { 1, 2, 3, 4, 5 };
+
+            // 배열에서 홀수만 추출 : 람다 식 사용
+            var query = arr.Where(num => num % 2 == 1);
+
+            foreach (var n in query)
+            {
+                Console.WriteLine(n);
+            }
+        }
+
     }
 }
