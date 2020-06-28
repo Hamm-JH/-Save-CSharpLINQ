@@ -35,7 +35,9 @@ namespace CSharpLINQ
             //LINQ_OrderBy();
             //LINQ_OrderByDescending();
 
-            LINQ_MethodChain();
+            //LINQ_MethodChain();
+
+            LINQ_UseCase();
         }
 
         #region Sum
@@ -287,5 +289,26 @@ namespace CSharpLINQ
         }
 
         #endregion Method chaining
+
+        #region Simple LINQ use case
+
+        static void LINQ_UseCase()
+        {
+            var numbers = Enumerable.Range(11, 10);
+
+            foreach(var num in numbers)
+            {
+                Console.Write($"{num} ");
+            }
+
+            Console.WriteLine();
+
+            foreach(var num in numbers.Where(n => n % 2 == 0).OrderByDescending(n => n))
+            {
+                Console.Write($"{num} ");
+            }
+        }
+
+        #endregion Simple LINQ use case
     }
 }

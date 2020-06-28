@@ -250,3 +250,15 @@
 
 
 
+### 짝수인 데이터만 내림차순 정렬하기
+
+> #### 11부터 20까지 정수를 가지고 짝수만 구한 후 이를 다시 내림차순 정렬한 데이터를 가져온다.
+
+- #### UseCase()
+
+![UC](mdFiles/Images/UseCase/UCCode.PNG)
+
+![Img](mdFiles/Images/UseCase/UCImg.PNG)
+
+
+
