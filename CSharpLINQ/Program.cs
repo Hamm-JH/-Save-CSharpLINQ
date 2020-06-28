@@ -28,7 +28,9 @@ namespace CSharpLINQ
             //LINQ_Any();
 
             //LINQ_Take();
-            LINQ_Skip();
+            //LINQ_Skip();
+
+            LINQ_Distinct();
         }
 
         #region Sum
@@ -215,5 +217,28 @@ namespace CSharpLINQ
         }
 
         #endregion Take, Skip
+
+        #region Distinct
+
+        static void LINQ_Distinct()
+        {
+            var data = Enumerable.Repeat(3, 5); // 3을 5개 저장
+
+            foreach(int num in data.Distinct())     // Distinct로 중복 제거
+            {
+                Console.WriteLine(num);
+            }
+
+            Console.WriteLine();
+
+            int[] arr = { 2, 2, 3, 3, 3 };      // 2와 3을 중복해서 배열에 저장
+
+            foreach (int num in arr.Distinct())
+            {
+                Console.WriteLine(num);
+            }
+        }
+
+        #endregion Distinct
     }
 }

@@ -204,3 +204,15 @@
 
 
 
+### Distinct() 확장 메서드로 중복 제거하기
+
+> #### Distinct() 메서드를 사용하면 컬렉션(시퀀스)에서 중복된 데이터를 제거한다.
+
+- #### Distinct()
+
+![Distinct](mdFiles/Images/Distinct/DistinctCode.PNG)
+
+![Img](mdFiles/Images/Distinct/DistinctImg.PNG)
+
+
+
