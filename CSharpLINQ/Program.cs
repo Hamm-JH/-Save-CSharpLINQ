@@ -12,7 +12,8 @@ namespace CSharpLINQ
             //LINQ_Count();
             //LINQ_Average();
             //LINQ_Max();
-            LINQ_Min();
+            //LINQ_Min();
+            LINQ_Where();
         }
 
         static void LINQ_Sum()
@@ -58,6 +59,18 @@ namespace CSharpLINQ
             double min = numbers.Min();
 
             Console.WriteLine($"{nameof(numbers)} 리스트의 최소값 : {min:.00}");
+        }
+
+        static void LINQ_Where()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5 };
+
+            IEnumerable<int> newNumbers = numbers.Where(number => number > 3);
+
+            foreach(var n in newNumbers)
+            {
+                Console.WriteLine(n);
+            }
         }
     }
 }
