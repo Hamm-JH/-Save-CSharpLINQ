@@ -47,4 +47,16 @@
 
 
 
+### Average() 메서드로 배열의 평균 구하기
+
+> #### Average() 확장 메서드로 배열의 평균을 구한다.
+
+- #### Average()
+
+![Average](mdFiles/Images/Average/AverageCode.PNG)
+
+![Img](mdFiles/Images/Average/AverageImg.PNG)
+
+
+
 ### 

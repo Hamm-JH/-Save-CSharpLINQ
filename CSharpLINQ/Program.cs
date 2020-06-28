@@ -8,7 +8,8 @@ namespace CSharpLINQ
         static void Main(string[] args)
         {
             //LINQ_Sum();
-            LINQ_Count();
+            //LINQ_Count();
+            LINQ_Average();
         }
 
         static void LINQ_Sum()
