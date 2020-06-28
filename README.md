@@ -23,3 +23,28 @@
 
 
 
+### Sum() 메서드로 배열의 합 구하기
+
+> #### 정수 배열 또는 컬렉션에 들어 있는 데이터의 전체 합을 LINQ.Sum() 메서드를 사용해 구한다.
+
+- #### Sum()
+
+![Sum](mdFiles/Images/Sum/SumCode.PNG)
+
+![SumImg](mdFiles/Images/Sum/SumImg.PNG)
+
+
+
+### Count() 메서드로 배열의 개수 구하기
+
+> #### Count() 확장 메서드로 정수 배열의 개수를 구한다.
+
+- #### Count()
+
+![Count](mdFiles/Images/Count/CountCode.PNG)
+
+![Img](mdFiles/Images/Count/CountImg.PNG)
+
+
+
+### 
