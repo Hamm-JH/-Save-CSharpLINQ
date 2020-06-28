@@ -124,3 +124,15 @@
 
 
 
+### Where() 메서드로 조건 처리하기
+
+> #### Where() 확장 메서드는 람다 식을 사용하여 조건을 처리할 수 있습니다. 다음 코드를 보면 배열 또는 컬렉션에 Where() 메서드를 사용해서 짝수만 가져온 후 다시 Sum() 메서드로 짝수의 합만 구할 수 있습니다.
+
+- #### CheckCondition
+
+![CheckCondition](mdFiles/Images/CheckCondition/CheckConditionCode.PNG)
+
+![Img](mdFiles/Images/CheckCondition/CheckConditionImg.PNG)
+
+
+

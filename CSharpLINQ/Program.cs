@@ -14,7 +14,8 @@ namespace CSharpLINQ
             //LINQ_Max();
             //LINQ_Min();
             //LINQ_Where();
-            LINQ_ConvertToList();
+            //LINQ_ConvertToList();
+            LINQ_CheckCondition();
         }
 
         static void LINQ_Sum()
@@ -84,6 +85,15 @@ namespace CSharpLINQ
             {
                 Console.WriteLine(number);
             }
+        }
+
+        static void LINQ_CheckCondition()
+        {
+            List<int> numbers = new List<int> { 1, 2, 3 };
+
+            int number = numbers.Where(n => n % 2 == 1).Sum();
+
+            Console.WriteLine(number);
         }
     }
 }
