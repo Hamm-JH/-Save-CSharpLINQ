@@ -238,3 +238,15 @@
 
 
 
+### 확장 메서드 체이닝
+
+> #### 메서드 체이닝처럼 확장 메서드도 체이닝으로 여러 번 호출할 수 있다.
+
+- #### MethodChain()
+
+![MC](mdFiles/Images/MethodChain/MCCode.PNG)
+
+![Img](mdFiles/Images/MethodChain/MCImg.PNG)
+
+
+

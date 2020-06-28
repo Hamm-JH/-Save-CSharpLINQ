@@ -33,7 +33,9 @@ namespace CSharpLINQ
             //LINQ_Distinct();
 
             //LINQ_OrderBy();
-            LINQ_OrderByDescending();
+            //LINQ_OrderByDescending();
+
+            LINQ_MethodChain();
         }
 
         #region Sum
@@ -269,5 +271,21 @@ namespace CSharpLINQ
         }
 
         #endregion OrderBy, OrderByDescending
+
+        #region Method chaining
+
+        static void LINQ_MethodChain()
+        {
+            List<string> names = new List<string> { ".NET", "C#", "TypeScript" };
+
+            var results = names.Where(name => name.Length > 2).OrderBy(n => n);
+
+            foreach(var name in results)
+            {
+                Console.WriteLine(name);
+            }
+        }
+
+        #endregion Method chaining
     }
 }
