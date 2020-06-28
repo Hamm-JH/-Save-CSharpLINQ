@@ -11,7 +11,8 @@ namespace CSharpLINQ
             //LINQ_Sum();
             //LINQ_Count();
             //LINQ_Average();
-            LINQ_Max();
+            //LINQ_Max();
+            LINQ_Min();
         }
 
         static void LINQ_Sum()
@@ -48,6 +49,15 @@ namespace CSharpLINQ
             int max = numbers.Max();
 
             Console.WriteLine($"{nameof(numbers)} 컬렉션의 최대값 : {max}");
+        }
+
+        static void LINQ_Min()
+        {
+            List<double> numbers = new List<double>() { 3.3, 2.2, 1.1 };
+
+            double min = numbers.Min();
+
+            Console.WriteLine($"{nameof(numbers)} 리스트의 최소값 : {min:.00}");
         }
     }
 }

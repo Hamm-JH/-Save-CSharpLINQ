@@ -71,3 +71,15 @@
 
 
 
+### Min() 메서드로 컬렉션의 최소값 구하기
+
+> #### Min() 확장 메서드로 배열의 최소값을 구한다.
+
+- #### Min()
+
+![Min](mdFiles/Images/Min/MinCode.PNG)
+
+![Img](mdFiles/Images/Min/MinImg.PNG)
+
+
+
