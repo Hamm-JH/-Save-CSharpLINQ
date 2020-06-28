@@ -262,3 +262,19 @@
 
 
 
+### Single()과 SingleOrDefault() 확장 메서드
+
+> #### 컬렉션에서 조건에 맞는 값을 단 하나만 가져오는 확장 메서드에서는 Single()과 SingleOrDefault()가 있다.
+>
+> - #### Single() : null 값이면 예외가 발생한다
+>
+> - #### SingleOrDefault() : 값이 없으면 null 값을 반환합니다.
+
+- #### SingleOrDefault()
+
+![SOD](mdFiles/Images/SingleOrDefault/SODCode.PNG)
+
+![Img](mdFiles/Images/SingleOrDefault/SODImg.PNG)
+
+
+

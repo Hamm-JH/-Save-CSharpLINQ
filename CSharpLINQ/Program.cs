@@ -37,7 +37,9 @@ namespace CSharpLINQ
 
             //LINQ_MethodChain();
 
-            LINQ_UseCase();
+            //LINQ_UseCase();
+
+            LINQ_SingleOrDefault();
         }
 
         #region Sum
@@ -310,5 +312,24 @@ namespace CSharpLINQ
         }
 
         #endregion Simple LINQ use case
+
+        #region Single, SingleOrDefault
+
+        static void LINQ_SingleOrDefault()
+        {
+            List<string> colors = new List<string> { "Red", "Green", "Blue" };
+            
+            string red = colors.Single(c => c == "Red");
+            Console.WriteLine(red);
+
+            // 없는 데이터를 요청하면 에러 발생
+            //string black = colors.Single(color => color == "Black");
+            //Console.WriteLine(black);
+
+            string black = colors.SingleOrDefault(color => color == "Black");
+            Console.WriteLine(black);
+        }
+
+        #endregion Single, SingleOrDefault
     }
 }
