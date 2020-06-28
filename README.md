@@ -59,4 +59,15 @@
 
 
 
-### 
+### Max() 메서드로 컬렉션의 최대값 구하기
+
+> #### Max() 확장 메서드로 배열의 최대값을 구한다.
+
+- #### Max()
+
+![Max](mdFiles/Images/Max/MaxCode.PNG)
+
+![Img](mdFiles/Images/Max/MaxImg.PNG)
+
+
+

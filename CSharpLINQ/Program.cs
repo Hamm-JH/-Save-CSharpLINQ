@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace CSharpLINQ
@@ -9,7 +10,8 @@ namespace CSharpLINQ
         {
             //LINQ_Sum();
             //LINQ_Count();
-            LINQ_Average();
+            //LINQ_Average();
+            LINQ_Max();
         }
 
         static void LINQ_Sum()
@@ -37,6 +39,15 @@ namespace CSharpLINQ
             double average = numbers.Average();
 
             Console.WriteLine($"numbers 배열 요소의 평균 : {average:#,###.##}");
+        }
+
+        static void LINQ_Max()
+        {
+            List<int> numbers = new List<int>() { 1, 2, 3 };
+
+            int max = numbers.Max();
+
+            Console.WriteLine($"{nameof(numbers)} 컬렉션의 최대값 : {max}");
         }
     }
 }
