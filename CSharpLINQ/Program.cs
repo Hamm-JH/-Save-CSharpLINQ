@@ -43,7 +43,9 @@ namespace CSharpLINQ
             //LINQ_FirstOrDefault();
 
             //LINQ_QuerySyntax();
-            LINQ_QuerySyntax2();
+            //LINQ_QuerySyntax2();
+
+            LINQ_Select();
         }
 
         #region Sum
@@ -397,5 +399,21 @@ namespace CSharpLINQ
         }
 
         #endregion Query syntax
+
+        #region Select
+
+        static void LINQ_Select()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5 };
+
+            var nums = numbers.Select(it => it * it);
+
+            foreach (var num in nums)
+            {
+                Console.WriteLine(num);
+            }
+        }
+
+        #endregion Select
     }
 }

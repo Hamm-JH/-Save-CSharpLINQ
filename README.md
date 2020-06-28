@@ -318,3 +318,15 @@
 
 
 
+### Select() 확장 메서드를 사용하여 새로운 형태로 가공하기
+
+> #### LINQ에서 제공하는 Select() 확장 메서드는 컬렉션에서 새로운 형태의 데이터로 만들어 사용할 수 있다.
+
+- #### Select()
+
+![Select](mdFiles/Images/Select/SelectCode.PNG)
+
+![Img](mdFiles/Images/Select/SelectImg.PNG)
+
+
+
