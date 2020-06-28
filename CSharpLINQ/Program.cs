@@ -13,7 +13,8 @@ namespace CSharpLINQ
             //LINQ_Average();
             //LINQ_Max();
             //LINQ_Min();
-            LINQ_Where();
+            //LINQ_Where();
+            LINQ_ConvertToList();
         }
 
         static void LINQ_Sum()
@@ -70,6 +71,18 @@ namespace CSharpLINQ
             foreach(var n in newNumbers)
             {
                 Console.WriteLine(n);
+            }
+        }
+
+        static void LINQ_ConvertToList()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5 };
+
+            List<int> newNumbers = numbers.Where(number => number > 3).ToList();
+
+            foreach(var number in newNumbers)
+            {
+                Console.WriteLine(number);
             }
         }
     }

@@ -112,3 +112,15 @@
 
 
 
+### ToList()로 메서드로 IEnumerable<T>를 List<T>로 변환하기
+
+> #### 람다 식을 사용하는 Where() 같은 확장 메서드를 호출할 때 IEnumerable<T> 대신에 List<T> 형태로 받으려면 ToList() 메서드를 한 번더 호출한다.
+
+- #### ToList()
+
+![ToList](mdFiles/Images/ToList/ToListCode.PNG)
+
+![Img](mdFiles/Images/ToList/ToListImg.PNG)
+
+
+
