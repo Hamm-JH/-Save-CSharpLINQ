@@ -16,7 +16,8 @@ namespace CSharpLINQ
             //LINQ_Where();
             //LINQ_ConvertToList();
             //LINQ_CheckCondition();
-            LINQ_CheckCondition2();
+            //LINQ_CheckCondition2();
+            LINQ_CheckCondition3();
         }
 
         static void LINQ_Sum()
@@ -110,5 +111,16 @@ namespace CSharpLINQ
             }
         }
 
+        static void LINQ_CheckCondition3()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5 };
+
+            var nums = numbers.Where(it => it % 2 == 0 && it > 3);  // 짝수 && 3보다 큰 수
+
+            foreach(var num in nums)
+            {
+                Console.WriteLine(num);
+            }
+        }
     }
 }

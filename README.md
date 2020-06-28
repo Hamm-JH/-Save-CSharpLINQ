@@ -144,3 +144,11 @@
 
 
 
+- #### CheckCondition3
+
+![CC3](mdFiles/Images/CheckCondition/CC3Code.PNG)
+
+![Img](mdFiles/Images/CheckCondition/CC3Img.PNG)
+
+
+
