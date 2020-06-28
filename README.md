@@ -216,3 +216,17 @@
 
 
 
+### 데이터 정렬과 검색
+
+> #### LINQ의 확장 메서드 중에서 데이터를 오름차순으로 정렬할 때는 OrderBy()를 사용하고, 내림차순으로 정렬할 때는 OrderByDescending() 메서드를 사용합니다.
+>
+> #### 문자열 요소 3개를 가진 colors 배열을 사용하여 ABC 또는 가나다 순서의 오른차순으로 정렬된 새로운 값을 얻고 싶다면 OrderBy() 확장 메서드를 사용한다.
+
+- #### OrderBy()
+
+![OrderBy](mdFiles/Images/OrderBy/OrderByCode.PNG)
+
+![Img](mdFiles/Images/OrderBy/OrderByImg.PNG)
+
+
+
